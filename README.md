@@ -1,2 +1,2 @@
 # Summer of Open Source
-记录开源之夏项目
+记录开源之夏
