@@ -6,7 +6,7 @@
 
 ## 前提准备
 
-### 1.Ubuntu22.04（内存不小于80G）
+### 1.Ubuntu22.04（磁盘容量不小于80G）
 
 ### 2.科学上网环境
 
@@ -176,6 +176,8 @@ apt install python3.10-venv
 ## esp-matter开发环境搭建
 
 > 参考：[【乐鑫 Matter SDK GitHub】](https://github.com/espressif/esp-matter)
+
+**注意：如果上面的 esp-idf 开发环境的搭建使用的是  jihu-mirror 方式，那么你需要取消esp镜像，按理说这部分错误不应该发生，但实际上确实存在这部分问题，请执行命令：`./jihu-mirror.sh unset`取消esp镜像！！ **
 
 ```c
 git clone --recursive https://github.com/espressif/esp-matter.git
